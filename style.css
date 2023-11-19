@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   place-content: center;
+   align-items: center;
+   background-color: #3B4664;
+   font-weight: bolder;
+   font-size: 2.5rem;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+input{
+    height: 12vh;
+    width: 25.7vw;
+    background-color: #181F32;
+    color: white;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    font-size: 2rem;  
+    text-align: end;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.inputs{
+    height: 50vh;
+    width: 30vw;
+    background-color: #252D44;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+}
+
+button{
+    height: 6vh;
+    width: 6vw;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.line2 button{
+    width: 13.5vw;
+}
