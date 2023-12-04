@@ -1,2 +1,2 @@
 
-[Click me to see](https://sattarmansuri.github.io/Calculator---Using-Html-CSS-JS/)
+[Click me to see this project](https://sattarmansuri.github.io/Calculator---Using-Html-CSS-JS/)
